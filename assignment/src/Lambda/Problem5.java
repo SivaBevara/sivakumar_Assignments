@@ -2,12 +2,12 @@ package Lambda;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.UnaryOperator;
-import java.util.stream.Collectors;
 
-public class Problem6 {
+public class Problem5 {
     public static void main(String[] args) {
+        StringBuilder build = new StringBuilder();
         List<String> join = new ArrayList<>();
+
         join.add("enough");
         join.add("india");
         join.add("this");
@@ -15,14 +15,9 @@ public class Problem6 {
         join.add("hindsight");
         join.add("random");
         join.add("nonstop");
-        join.replaceAll(new change());
-        join.stream().collect(Collectors.toList()).forEach(System.out::println);
-
-    }
-}
-class change implements UnaryOperator<String>{
-    @Override
-    public String apply(String s) {
-        return s.toUpperCase();
+        //Consumer interface
+        join.forEach(t -> build.append(t.charAt(0)));
+        System.out.println("The resultant string using string builder");
+        System.out.println(build);
     }
 }
