@@ -7,7 +7,7 @@ public class Employee {
 	public String department;
 	public Integer salary;
 
-	Employee() {}
+	public Employee() {}
 
 	public Employee(int id, String name, String department, Integer salary) {
 		super();

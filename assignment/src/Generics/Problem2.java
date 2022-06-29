@@ -16,8 +16,7 @@ public class Problem2{
 		
 		System.out.println("data stored in the hash map are :");
 		
-		for(Map.Entry m:Map.entrySet()) {
-			System.out.println(m.getKey()+ " :: "+m.getValue());
-		}
+
+		System.out.println("HashMap: " + Map);
 	}
 }

@@ -15,7 +15,7 @@ public class Problem4 {
 
         LinkedList<Date> dateList = new LinkedList<Date>();
 
-        // Adding elements to the linked list
+        
         dateList.add(x);
         dateList.add(y);
         int i=dateList.size()-1;

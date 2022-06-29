@@ -1,12 +1,14 @@
 package collections;
 
- class product{
-	  private String p_name;
-	  public product(String p_name){
-	      this.p_name=p_name;
-	  }
-	  @Override
-	  public String toString(){
-	      return "Product name: "+p_name;
-	  }
+public class product {
+	private String p_name;
+
+	public product(String p_name) {
+		this.p_name = p_name;
 	}
+
+	@Override
+	public String toString() {
+		return "Product name: " + p_name;
+	}
+}

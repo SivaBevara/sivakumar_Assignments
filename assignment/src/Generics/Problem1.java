@@ -13,10 +13,10 @@ public class Problem1 extends employee{
     	
         HashSet<employee> act= new HashSet();
         
-        employee e1=new employee(1,"Vivek",30000,"Dev");
-        employee e2=new employee(2,"Ram",20000,"Q/A");
-        employee e3=new employee(3,"Aditya",30000,"Dev");
-        employee e4=new employee(4,"Saurav",50000,"Manager");
+        employee e1=new employee(1,"Chaitanya",30000,"Developer");
+        employee e2=new employee(2,"Nithish",20000,"Analyst");
+        employee e3=new employee(3,"Ram",30000,"Developer");
+        employee e4=new employee(4,"Veera",50000,"Manager");
         
         act.add(e1);
         act.add(e2);
