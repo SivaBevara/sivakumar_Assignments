@@ -31,18 +31,18 @@ class Problem5 {
     public static void main(String args[])
     {
         double l, b, h;
-        findArea area = new findArea();
+       // findArea area = new findArea();
         Scanner sc = new Scanner(System.in);
  
         System.out.print("Enter Base & Vertical Height of Triangle: ");
         b = sc.nextDouble();
         h = sc.nextDouble();
-        area.findTriangle(b, h);
+     //   area.findTriangle(b, h);
  
         System.out.print("\nEnter Length & Breadth of Rectangle: ");
         l = sc.nextDouble();
         b = sc.nextDouble();
-        area.findRectangle(l, b);
+     //   area.findRectangle(l, b);
         sc.close();
  
     }
